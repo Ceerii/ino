@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  
+    font-family: 'Montserrat'!important;
+    background-color: #E5E5E5;
+
+  }
+
+  .heading {
+      display: flex;
+  }
+
+  .reset-heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.reset-image {
+    width: 25px;
+    margin-top: 55px;
+    margin-left: 90px;
+}
+
+.new-block {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.newpassword-input {
+    padding: 15px 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.confirm-block {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.confirm-input {
+    padding: 15px 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.reset-btn {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.resetpass-btn {
+    background-color: #00E04C;
+    color: #ffffff;
+    padding: 12px 81px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+  }

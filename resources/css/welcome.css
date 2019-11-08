@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  
+    font-family: 'Montserrat'!important;
+    background-color: #E5E5E5;
+
+  }
+
+  .welcome-block {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .welcome-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    
+  }
+
+  .welcome-paragraph {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+/* 
+  .service {
+      margin-top: 20px;
+  } */
+
+  .car-block {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .car-content {
+      padding: 20px 0;
+      background-color: #ffffff;
+      margin-top: -15px;
+      margin-left: 42px;
+      width: 18.2rem;
+  }
+
+  .courier-block {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .courier-content {
+      padding: 20px 0;
+        background-color: #ffffff;
+        margin-top: -15px;
+        margin-left: 42px;
+        width: 18.2rem;
+}
+
+.home-block {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-content {
+    padding: 20px 0;
+    background-color: #ffffff;
+    margin-top: -15px;
+    margin-left: 42px;
+    width: 18.2rem;
+}
+
+.ride-block {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ride-content {
+    padding: 20px 0;
+    background-color: #ffffff;
+    margin-top: -15px;
+    margin-left: 42px;
+    width: 18.2rem;
+}
+
+.welcome-block-btn {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.welcome-btn {
+    background-color: #00E04C;
+    color: #ffffff;
+    padding: 12px 110px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+

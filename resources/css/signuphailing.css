@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  
+    font-family: 'Montserrat'!important;
+    background-color: #E5E5E5;
+
+  }
+
+.signup-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+
+.signup-form {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.first-input {
+    padding: 15px 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    
+}
+
+.surname-input {
+    padding: 15px 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+   
+}
+
+
+
+
+
+.mailsignup {
+    padding: 15px 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+}
+
+.phone-input {
+    padding: 15px 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+}
+
+.email-block {
+    display: flex;
+    
+}
+
+.pass-input {
+    width: 9.2rem;
+    padding: 15px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+}
+
+.confirm-input {
+   width: 9.2rem;
+   padding: 14px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+}
+
+.signup-btn {
+    background-color: #00E04C;
+    color: #ffffff;
+    padding: 12px 66px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+    

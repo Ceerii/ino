@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  
+    font-family: 'Montserrat'!important;
+    background-color: #E5E5E5;
+
+  }
+
+.arrow-image {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 13px;
+}
+
+.set-heading {
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.set-detail {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.set-dot {
+    display: flex;
+    margin-left: 27px;
+    margin-top: 10px;
+}
+
+.shape {
+    width: 18px;
+   
+}
+
+.set-input {
+    padding: 14px 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+/* .discussion:after {
+    content: '\2807';
+    font-size: 10px;
+   margin-left: 25px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    color: #000000;
+    line-height: 1.8px;
+    justify-content: space-between;
+} */
+
+/* .set-detail-after {
+    margin-top: 30px;
+    background: rgb(165, 164, 164);
+    height: 03px;
+} */
+
+.select-body {
+    margin-top: 20px;
+}
+
+.home-body {
+    display: flex;
+}
+
+.home-text {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 05px;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.addhome-image {
+    margin-left: 20px;
+    width: 24px;
+}
+
+.after-line{
+    margin-top: 15px;
+    background-color: #9b9a9a;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.work-body {
+    display: flex;
+    margin-top: 10px;
+}
+
+.work-text {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 05px;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.addwork-image {
+    margin-left: 20px;
+    width: 24px;
+}
+
+.history-body {
+    display: flex;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.history-text {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 05px;
+    margin-left: 20px;
+    color: #000000;
+    
+}
+
+.history-image {
+    margin-left: 20px;
+    width: 24px;
+}
+
+.setdest-btn {
+    background-color: #00E04C;
+    color: #ffffff;
+    padding: 11px 90px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.img-btn {
+    position: absolute;
+    margin-top: 50px;
+    left: 90px;
+}

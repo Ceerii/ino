@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  
+    font-family: 'Montserrat'!important;
+    background-color: #E5E5E5;
+
+  }
+
+.history {
+    background-color:  #00E04C;
+    height: 289px;
+}
+
+.history-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.history-detail-block {
+    margin-left: 25px;
+}
+
+.history-detail-block1 {
+    margin-left: 25px;
+    margin-top: 10rem;
+}
+
+.history-detail-block2 {
+    margin-left: 25px;
+    margin-top: 10rem;
+}
+
+.history-detail {
+    background-color: #ffffff;
+    width: 327px;
+    height: 158px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: -130px;
+}
+
+  .arrow-image {
+    margin-top: 20px;
+    margin-left: 27px;
+    width: 13px;
+}
+
+.shape {
+    width: 15px;
+}
+.set-detail {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.dot {
+    margin-left: 5px;
+   
+}
+
+.detail-address {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.amt {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.done {
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6FCF97;
+}
+
+.complet {
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2D9CDB;
+}
+
+.cancel {
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AB1515;
+}

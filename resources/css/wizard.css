@@ -1,0 +1,74 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  
+    font-family: 'Montserrat'!important;
+
+  }
+
+  .hero{
+      background-image:  url(img/backgroundcolor.svg);
+      height: 431px;
+  }
+
+  .hailing-descri {
+      margin-top: 20px;
+  }
+
+  .hailing-heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .hailing-paragraph {
+      text-align: center;
+      font-size: 15px;
+      line-height: 22px;
+      margin-top: 20px;
+  }
+
+  .hailing-button1 {
+      text-align: center;
+        margin-top: 20px;
+  }
+
+  .btn-next {
+      background-color: #00E04C;
+      color: #ffffff;
+      padding: 10px 135px;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: 18px;
+  }
+
+  .hailing-button2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+  .btn-skip {
+      background-color: #ffffff;
+      border: 1px solid #00E04C;
+      color: #00E04C;
+      padding: 10px 120px;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: 18px;
+  }
+  

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  
+    font-family: 'Montserrat'!important;
+    background-color: #E5E5E5;
+
+  }
+
+  .arrow-image {
+    margin-top: 20px;
+    margin-left: 27px;
+    width: 13px;
+}
+
+.credit-block {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card1-block, .card4-block {
+    margin-top: 20px;
+}
+
+.card1-input, .card4-input {
+    padding: 14px 75px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.card2-input {
+    width: 13.2rem;
+    padding: 14px 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.card2-block {
+    margin-top: 20px;
+}
+
+.card3-input {
+    width: 6.5rem;
+    padding: 14px 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.pay-btn {
+    margin-top: 25px;
+    text-align: center
+}
+
+.payment-btn {
+    background-color: #00E04C;
+    color: #ffffff;
+    padding: 12px 127px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+
+
+.form-container {
+    text-align: center;
+}

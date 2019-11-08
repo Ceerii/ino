@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  
+    font-family: 'Montserrat'!important;
+    background-color: #E5E5E5;
+
+  }
+
+.arrow-image {
+    margin-top: 20px;
+    margin-left: 27px;
+    width: 13px;
+}
+
+.credit-block {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.credit-card{
+    height: 120px;
+}
+
+.credit-card1{
+    height: 119px;
+}
+
+.form-block {
+    display: flex;
+}
+.new-btn {
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 4px 08px;
+    font-weight: 500;
+    outline: none;
+}
+
+.radio-text {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.radio-block {
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+
+.radio1 {
+    display: flex;
+}
+.radio2 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.radio-off, .radio-on {
+    width: 15px;
+}
+
+.addcard-block {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 42px;
+    width: 100px;
+    margin-left: 230px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.summary-box {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 200px;
+    width: 75%;
+    margin-left: 47px;
+    margin-top: 30px;
+}
+
+.summary-heading {
+    text-align: center;
+    margin-top: 05px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.summary-text-block {
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    /* color: #666; */
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    background: #EEEEEE;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #000000;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+
+.summary-amt {
+    margin-right: 10px;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+.summary-text {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.summary-btn {
+    margin-top: 25px;
+    text-align: center
+}
+
+.payment-summary-btn {
+    background-color: #00E04C;
+    color: #ffffff;
+    padding: 10px 67px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

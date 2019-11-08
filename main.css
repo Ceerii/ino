@@ -1,0 +1,746 @@
+*{
+    padding: 0;
+    margin:0;
+}
+@font-face {
+    font-family: montserrat;
+    src:url("../Opushive-Project-master/montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: montserrat-bold;
+    src:url("../Opushive-Project-master/montserrat/Montserrat-Bold.ttf");
+}
+body{
+    font-family: montserrat;
+}
+
+.container{
+    background-image: url("./map.png");
+    width:100%;
+    height:100vh;
+    background-size:cover; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 27px;
+}
+.fa-arrow-left{
+    font-size: 24px;
+}
+.arrow-left{
+    font-size:18px;
+}
+.fa-user-circle{
+    font-size: 36px;
+    color:#00E04C;
+    background: white;
+    border-radius: 50px;
+}
+.bottom-container{
+   width:100%;
+   height:207px;
+   max-height: 30%;
+   background: rgba(245, 245, 245);
+   border-top-left-radius:9%;
+   border-top-right-radius:9%;
+}
+.bottom-container>div{
+    margin: 10px 27px;
+}
+.bottom-container>div p{
+    font-size: 14px;
+    font-weight: 100;
+}
+.bottom-container>div h3{
+    font-size: 18px;
+    font-family: montserrat-bold;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+.bottom-container>div input{
+    width:100%;
+    height: 45px;
+    border: none;
+    background-image:url('./img/icons8-search-50.png');
+    background-repeat:no-repeat;
+    background-position:5% center;
+    outline:0;
+    background-size: 6%;
+    text-indent: 45px;
+    font-size: 16px;
+    font-family: montserrat-bold;
+    margin-bottom: 25px;
+    color: black;
+}
+.mini-bottom-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    font-size:16px;
+    font-family:montserrat-bold;
+    width:75%;
+}
+
+/* second.html */
+.map{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0;
+}
+.grey-top-container{
+    background: #eeeeee;
+    margin:0;
+    height:135px;
+    max-height: 100%;
+    padding-top: 25px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.grey-top-container>.back{
+    padding-left: 5px;    
+}
+.empty{
+    width:14px;
+    height:16px;
+}
+.input-box{
+  height:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input-box>.map-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:95%;
+    align-items: center;
+    align-self: center;
+    padding-right: 15px;
+}
+.input-box>div .dot{
+    width: 90%;
+}
+.input-box>div input{
+  height: 45px;
+  width: 83%;
+  border: none;
+  outline: none;
+  text-indent: 10px;
+  font-weight: bold;
+}
+
+.dot-circle, .map-marker{
+    font-size:23px;
+    color:#00BCD4;
+}
+.map-marker{
+    color: #00E04C;
+    font-size: 25px;
+}
+.second-bottom-container{
+    text-align: center;
+    font-family: montserrat-bold;
+    font-size: 18px;
+}
+.button{
+    width:100%;
+    background: #00E04C;
+    border: none;
+    outline: none;
+    height: 45px;
+    font-size: 18px;
+    color: white;
+}
+.swiper-container {
+    width: 200px;
+    height: 100%;
+  }
+ .swiper-slide {
+    width:200px;
+    font-size: 18px;
+    background: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  } 
+  /* add-home/destination */
+  .add-container{
+      background: #e5e5e5;
+
+  }
+  .add-top-container{
+      display: flex;
+      flex-direction: column;
+      margin:10px 10px;
+  }
+  .home-input{
+      width:100%;
+  }
+  .input-box-home>div input{
+    height: 45px;
+    width: 90%;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  .add-text{
+      font-family: montserrat-bold;
+      font-size:20px;
+      padding-left: 35px;
+      margin-bottom: 10px;
+  }
+
+  /* success.html */
+  .success-container{
+    font-family: montserrat-bold;
+    width: 100%;
+    height: 78.7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:180px;
+    background: white;
+    /* justify-content: center; */
+  }
+  .rent-box{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:320px;
+  }
+
+  .orange-box{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:270px;
+  }
+  .check{
+      margin-bottom:10px;
+  }
+  .container-text{
+    display: flex;
+    flex-direction: column;
+    max-height: 220px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container-text h3{
+    font-family: montserrat-bold;
+    font-size:35px;
+    margin-bottom:10px;
+    color:rgba(0,0,0,1);
+    
+}
+.fa-check-circle{
+    font-size:130px;
+    background: white;
+    border-radius: 50%;
+    color: #00E04C;
+}
+.container-text h5{
+    font-size:18px;
+    font-weight: 100;
+    font-family: montserrat;   
+    color:rgba(0,0,0,0.8);
+}
+.container-text button, .rent, .verify-container-text>button{
+    margin-top: 1rem;
+    background-color:#00E04C;
+    font-family: montserrat;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 500;
+    width:330px;
+    max-width: 100%;
+    height:45px;
+    border:none;
+    color:rgba(255,255,255,1);
+    outline:none;
+    cursor: pointer;
+  
+}
+/* orange */
+.orange{
+    color: #FFA500;
+}
+button.orange.rent{
+    background: #FFA500;
+    margin-top: -6rem;
+}
+.long-text{
+    margin-bottom:15px;
+    text-align: center;
+    width:220px;
+}
+/* history */
+.history-container{
+    background: #fff;
+}
+.green-container{
+    background: #00E04C;
+    margin:0;
+    height:220px;
+    max-height: 100%;
+    padding-left: 24px;
+    padding-right: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content:unset; 
+}
+.orange-container{
+    background: #FFA500;
+    margin:0;
+    height:220px;
+    max-height: 100%;
+    padding-left: 24px;
+    padding-right: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content:unset; 
+}
+.green-container i, .orange-container i{
+    margin-bottom: 10px;
+}
+.green-container p, .orange-container p{
+    font-size:25px;
+    font-weight: 600;
+    color:white;
+}
+#orange-back{
+    font-size: 16px;
+    color:#fff;
+    margin-bottom: 15px;
+}
+.record-block{
+    width: 90%;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    position: absolute;
+    top: 110px;
+}
+.record{
+    width:95%;
+    height: 170px;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;  
+    border-radius: 5px;
+    background: white;
+    flex-direction: column;
+}
+.bigger-record{
+    width:100%;
+    height:72%;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  
+}
+.bigger-record>div{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin: 15px 15px 0 15px;
+    text-align: left;
+}
+.smaller-record{
+    width: 100%;
+    height:25%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.smaller-record>div{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4px 15px 30px 15px;
+    /* text-align: left;  */
+}
+.add-color{
+    color:#6FCF97;
+}
+.add-color-blue{
+    color: #2D9CDB;
+}
+.add-color-red{
+    color:#AB1515;
+}
+.icon{
+    margin-right:10px;
+    font-size:16px;
+}
+.dotcircle{
+    color:#00BCD4;
+    /* font-weight: bold; */
+}
+.threedots{
+    display:flex;
+    flex-direction: column;
+    margin:0 15px 0 20px;
+    position: relative;
+    top:-5px;
+}
+.threedots div{
+    display: flex;
+    justify-content: flex-start;
+}
+.destination{
+    margin:0 15px 15px 15px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    
+}
+/* rating */
+.rating-container{
+    text-align: center;
+    font-size:28px;
+}
+.rating-container p{
+    font-weight: 100;
+    margin-top: 32px;
+}
+.rating-button{
+    width: 90%;
+    margin: 50px auto;
+}
+.textarea{
+ width:100%;
+ height:100%;
+ text-indent:20px;
+ font-family: montserrat;
+ padding-top:10px;
+}
+.profile-pic{
+    background-image:url("/img/taxi\ man.png");
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border:1px solid black;
+    background-position: center;
+}
+.rating-record{
+    height:250px;
+}
+.rating-record p{
+   
+}
+#rateYo{
+    margin-bottom:40px;
+    width:90%;
+}
+div.jq-ry-normal-group.jq-ry-group{
+    margin: 0 10px 0 0px;
+    display: flex;
+    justify-content: space-between;
+}
+/* rated */
+.rated-text{
+    font-size:28px;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+.second-rated-text{
+    font-size:16px;
+    text-align: center;
+    width:75%;
+
+}
+.second-rating-record{
+    margin-top:35px;
+}
+.rated-record{
+    display: flex;
+    justify-content: unset;
+}
+.rated-button{
+    width: 90%;
+    margin: 90px auto;
+}
+.courier-input{
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height:380px;
+}
+.courier-input input{
+    width:100%;
+    height:45px;
+    background:white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+    border-radius:5px;
+    text-indent: 18px;
+    font-size:12px;
+    color:#828282;
+}
+.courier-input input::placeholder{
+    color:#828282;
+}
+.courier-input>div input{
+    width:45%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+    border-radius:5px;
+    text-indent: 18px;
+    font-size:12px;
+    color:#828282;
+}
+.courier-input>div input::placeholder{
+    color:#828282;
+}
+.courier-input>div{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.courier-container{
+    width:100%;
+    height:100vh;
+    background-size:cover; 
+    display: flex;
+    flex-direction: column;
+}
+.courier-top-container{
+    margin:15px 27px 10px 27px;
+}
+.courier-orange{
+    
+  color: #FFA500;
+}
+.courier-text{
+    width: 90%;
+    margin: 0 auto 10px auto;
+}
+.courier-text p{
+    font-size:14px;
+    font-weight: 600;
+}
+.orange-courier{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+    border-radius:5px;
+    background: #FFA500;
+    margin: 25px auto 50px auto;
+}
+.courier-select{
+    width:90%;
+    height:100px;
+    background: #828282;
+    opacity:0.4;
+    margin:0 auto 40px auto;
+}
+.courier-tab{
+    width: 96%;
+    margin:0 auto;
+}
+.tabs .tab a.active{
+    color:#FFA500;
+    border-bottom: 3px solid #FFA500;
+}
+.tabs .tab a{
+    color: #FFA500;
+    padding: 0 8px;
+}
+.tabs .tab a:hover{
+    color: #FFA500;
+}
+.tabs .tab{
+
+}
+.tabs .tab a {
+    color: #FFA500;
+    /*Custom Text Color*/
+  }
+  
+  .tabs .tab a:hover {
+    color:#FFA500;
+    /*Custom Color On Hover*/
+  }
+  
+  .tabs .tab a:focus.active {
+    color:#FFA500;
+    /*Custom Text Color While Active*/
+    background-color:white;
+    /*Custom Background Color While Active*/
+  }
+  .button:focus{
+      background-color: #FFA500;
+  }
+  
+  .tabs .indicator {
+    background-color:#FFA500;
+    /*Custom Color Of Indicator*/
+  }
+  .courier-continue{
+    background: none;
+    border: none;
+    color: white;
+    width: 100%;
+    margin-top: 13px;
+  }
+  .courier-continue:focus{
+    background: none;
+    border: none;
+    color: white;
+    width: 100%;
+    margin-top: 13px;
+  }
+  /* info */
+  .orange-info{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 15px;
+  }
+  .orange-info-container{
+      height:160px;
+  }
+  .orange-marker{
+      color:#FFA500;
+  }
+
+.map-input{
+    border-radius: 5px;
+}
+.second-bottom-container>div>h3{
+    font-size:18px;
+    text-decoration: underline;
+}
+.second-bottom-container section{
+    display: flex;
+    justify-content: space-between;
+}
+.info-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 105px;
+    font-size: 13px;
+    font-style: normal;
+font-weight: bold;
+margin-bottom:25px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0px;
+}
+.button-container button{
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.info-container{
+    height:250px;
+    max-height: 100%;
+    background: white;
+    border-radius: none;
+}
+.orange-border{
+    border:1px solid #FFA500;
+    background: transparent;
+    color:#FFA500;
+}
+.orange-background{
+    background: #FFA500;
+    color:white;
+    border: none;
+}
+/* modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 70% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid black;
+    width: 70%; /* Could be more or less, depending on screen size */
+    height: 170px;
+    text-align:center;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-button{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+  }
+  .modal-button button{
+    width: 115px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    outline:none;
+  }
+  .title{
+      font-size:28px;
+      font-family: montserrat;
+
+  }
+  .contents{
+    font-size:18px;
+    font-family: montserrat; 
+    width:160px;
+    margin:0 auto;
+  }
+  .back-button{
+      background: white;
+      border:1px solid black;
+      color:black;
+  }
+  .confirm{
+      color:white;
+      border:none;
+      background: #FFA500;
+  }
