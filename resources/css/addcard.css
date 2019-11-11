@@ -13,6 +13,10 @@ body {
     background-color: #E5E5E5;
 
   }
+  .skip{
+      background: transparent;
+      color:#00E04C;
+  }
 
   .arrow-image {
     margin-top: 20px;

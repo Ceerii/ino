@@ -58,8 +58,22 @@ body {
 
   .hailing-button2 {
     text-align: center;
-    margin-top: 20px;
     margin-bottom: 40px;
+}
+.skip{
+    background: transparent;
+    color:#00E04C;
+    margin-top: 1rem;
+    font-family: montserrat;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 330px;
+    max-width: 100%;
+    height: 45px;
+    border: 1px solid #00E04C;
+    outline: none;
+    cursor: pointer;
 }
 
   .btn-skip {
